@@ -1,0 +1,8 @@
+com\demo\service\AppService.class
+com\demo\exception\ErrorResponse.class
+com\demo\model\User.class
+com\demo\controller\AppController.class
+com\demo\dao\AppDao.class
+com\demo\EconomicalInsuranceRestServerApplication.class
+com\demo\exception\RecordNotFoundException.class
+com\demo\exception\CustomExceptionHandler.class

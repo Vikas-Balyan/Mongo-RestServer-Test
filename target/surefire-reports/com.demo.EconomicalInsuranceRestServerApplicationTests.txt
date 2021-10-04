@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.demo.EconomicalInsuranceRestServerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.027 s <<< FAILURE! - in com.demo.EconomicalInsuranceRestServerApplicationTests
+testGetEmployeeListSuccess  Time elapsed: 3.074 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8082/user/615ac48357f47c22ac340a44": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at com.demo.EconomicalInsuranceRestServerApplicationTests.testGetEmployeeListSuccess(EconomicalInsuranceRestServerApplicationTests.java:37)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.demo.EconomicalInsuranceRestServerApplicationTests.testGetEmployeeListSuccess(EconomicalInsuranceRestServerApplicationTests.java:37)
+
